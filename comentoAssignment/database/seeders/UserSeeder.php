@@ -33,7 +33,7 @@ class UserSeeder extends Seeder
             User::create([
                 'user_social_id' => 'nfvh729@gmail.com',
                 'user_state' => '0',
-                'user_kind' => '아비시니안',
+                'user_kind' => '시바견',
                 'user_age' => 6,
                 'created_at' => $date,
             ]);
@@ -53,7 +53,7 @@ class UserSeeder extends Seeder
             User::create([
                 'user_social_id' => 'sjdk983@daum.net',
                 'user_state' => '0',
-                'user_kind' => '스핑크스',
+                'user_kind' => '도베르만',
                 'user_age' => 1,
                 'created_at' => $date,
             ]);

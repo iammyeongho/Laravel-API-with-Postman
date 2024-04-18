@@ -16,7 +16,7 @@ class QuestionCategorySeeder extends Seeder
     public function run()
     {
         QuestionCategory::create([
-            'category_name' => '집사 고민'
+            'category_name' => '동물 고민'
         ]);
 
         QuestionCategory::create([
@@ -24,7 +24,7 @@ class QuestionCategorySeeder extends Seeder
         ]);
 
         QuestionCategory::create([
-            'category_name' => '그루밍'
+            'category_name' => '그 외'
         ]);
     }
 }

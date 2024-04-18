@@ -29,7 +29,7 @@ class QuestionsSeeder extends Seeder
             Questions::create([
                 'category_id' => $category,
                 'user_id' => $user,
-                'question_title' => '고양이 오줌실수',
+                'question_title' => '질문 테스트 1',
                 'question_contents' => <<<EOT
 3달전에 고양이 중성화수술을 했는데 아직까지 오줌실수를 여기저기 해요ㅠㅠ 
 화장실도 가긴 하는데 아무대서나도 자주싸요 고칠 방법이 있을까요?
@@ -48,7 +48,7 @@ EOT,
             Questions::create([
                 'category_id' => $category,
                 'user_id' => $user,
-                'question_title' => '고양이 꼬리',
+                'question_title' => '질문 테스트 2',
                 'question_contents' => <<<EOT
 아까부터 창문 앞에서 꼬리 흔들면서 갸갸갹 거리고 있네요 ㅋㅋㅋ 
 아까 날파리 있던데 그래서 그런가봐요 ㅋㅋㅋ 
@@ -68,7 +68,7 @@ EOT,
             Questions::create([
                 'category_id' => $category,
                 'user_id' => $user,
-                'question_title' => '아침에 누나 옷 위에서…',
+                'question_title' => '질문 테스트 3',
                 'question_contents' => <<<EOT
 오늘 제가 컴퓨터 하다가 레오를 보니…! 
 제 패딩 위에서 자고 있었어용!!!! 
@@ -88,7 +88,7 @@ EOT,
             Questions::create([
                 'category_id' => $category,
                 'user_id' => $user,
-                'question_title' => '오늘같이 추운날은 봄이빨리왔으면 좋겠어요',
+                'question_title' => '질문 테스트 4',
                 'question_contents' => <<<EOT
 지난봄에 찍은 사진인데 일명 꽃개사진! 이에요
 너무 예쁘죠??
@@ -109,7 +109,7 @@ EOT,
             Questions::create([
                 'category_id' => $category,
                 'user_id' => $user,
-                'question_title' => '고양이 감기때 씻겨도 되나요?',
+                'question_title' => '질문 테스트 5',
                 'question_contents' => <<<EOT
 시골집이라 고양이가 반 집냥이 반 길냥이입니다. 
 어느날 돌아다니더니 감기를 걸려왔더군요 눈물콧물이 줄줄 나오고 콧물때문에 숨이막혀 헐떡댑니다.. 
@@ -130,7 +130,7 @@ EOT,
             Questions::create([
                 'category_id' => $category,
                 'user_id' => $user,
-                'question_title' => '고양이 유모차 꼭 필요할까?',
+                'question_title' => '질문 테스트 6',
                 'question_contents' => <<<EOT
 쎄이를 키우기전에는 엄마아빠가 무슨 고양이유모차냐
 호들갑 떨지말아라 창피해서 나는 절대 ~~~ 못 끌고나간다
